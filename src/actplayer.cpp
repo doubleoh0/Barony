@@ -4277,11 +4277,11 @@ void actPlayer(Entity* my)
 							{
 								if ( multiplayer == SINGLE )
 								{
-									deleteSaveGame(multiplayer); // stops save scumming c:
+									//deleteSaveGame(multiplayer); // stops save scumming c:
 								}
 								else
 								{
-									deleteMultiplayerSaveGames(); //Will only delete save games if was last player alive.
+									//deleteMultiplayerSaveGames(); //Will only delete save games if was last player alive.
 								}
 							}
 
